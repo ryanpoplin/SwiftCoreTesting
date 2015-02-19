@@ -10,7 +10,22 @@ import UIKit
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
+    // ...
+    
+    var corePickerObjectList = [
+        "Classes and Objects",
+        "Variables and Constants",
+    ]
+    
+    var selectedPickerObjectRowValue: String!
+    
     @IBOutlet weak var corePickerObject: UIPickerView!
+    
+    @IBAction func corePickerObjectIsPressed(sender: UIButton) {
+    
+        println(selectedPickerObjectRowValue)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,12 +63,14 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
         
-        var corePickerObjectList = [
-            "Classes and Objects",
-            "Variables and Constants",
-        ]
-        
         return "\(corePickerObjectList[row])"
+        
+    }
+    
+    // ...
+    func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        
+        selectedPickerObjectRowValue = "\(corePickerObjectList[row])"
         
     }
 
