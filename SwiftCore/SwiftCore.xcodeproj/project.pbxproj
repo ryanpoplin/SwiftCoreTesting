@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A0AD71A1A971B7E00450215 /* ideas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5A0AD7191A971B7E00450215 /* ideas.txt */; };
 		5A5633581A95A0AF00C68E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5633571A95A0AF00C68E09 /* AppDelegate.swift */; };
 		5A56335B1A95A0AF00C68E09 /* SwiftCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A5633591A95A0AF00C68E09 /* SwiftCore.xcdatamodeld */; };
 		5A56335D1A95A0AF00C68E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A56335C1A95A0AF00C68E09 /* ViewController.swift */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0AD7191A971B7E00450215 /* ideas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ideas.txt; sourceTree = "<group>"; };
+		5A0AD71B1A97E39A00450215 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		5A5633521A95A0AF00C68E09 /* SwiftCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5633561A95A0AF00C68E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A5633571A95A0AF00C68E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 				5A5633631A95A0AF00C68E09 /* LaunchScreen.xib */,
 				5A5633591A95A0AF00C68E09 /* SwiftCore.xcdatamodeld */,
 				5A5633551A95A0AF00C68E09 /* Supporting Files */,
+				5A0AD71B1A97E39A00450215 /* MyPlayground.playground */,
 			);
 			path = SwiftCore;
 			sourceTree = "<group>";
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				5A5633561A95A0AF00C68E09 /* Info.plist */,
+				5A0AD7191A971B7E00450215 /* ideas.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A5633601A95A0AF00C68E09 /* Main.storyboard in Resources */,
+				5A0AD71A1A971B7E00450215 /* ideas.txt in Resources */,
 				5A5633651A95A0AF00C68E09 /* LaunchScreen.xib in Resources */,
 				5A5633621A95A0AF00C68E09 /* Images.xcassets in Resources */,
 			);
@@ -421,6 +427,7 @@
 				5A5633761A95A0AF00C68E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A5633771A95A0AF00C68E09 /* Build configuration list for PBXNativeTarget "SwiftCoreTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +436,7 @@
 				5A5633791A95A0AF00C68E09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -9,15 +9,35 @@
 import UIKit
 
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
-
-    // ...
     
     var corePickerObjectList = [
         "Classes and Objects",
         "Variables and Constants",
+        "Optionals",
+        "Methods",
+        "Objects from Classes",
+        "Custom Classes",
+        "Unit Testing",
+        "Advanced Properties",
+        "Arrays & Collections",
+        "Looping",
+        "Conditionals",
+        "Strings",
+        "Comments, Constants, Enums",
+        "Inheritance, Polymorphism",
+        "Initializers",
+        "Access Control",
+        "Data Types & Conversions",
+        "Object Lifetime & Memory",
+        "Protocols & Delegates",
+        "Extensions",
+        "Generics",
+        "Closures",
     ]
     
     var selectedPickerObjectRowValue: String!
+    
+    var rowCount: Int!
     
     @IBOutlet weak var corePickerObject: UIPickerView!
     
@@ -25,11 +45,15 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
         println(selectedPickerObjectRowValue)
         
+        // add dynamic view navigation...
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        rowCount = corePickerObjectList.count
+        
         corePickerObject.dataSource = self
         corePickerObject.delegate = self
         
@@ -54,7 +78,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         
         if pickerView == corePickerObject {
-            return 2
+            return rowCount
         }
         
         return 0
