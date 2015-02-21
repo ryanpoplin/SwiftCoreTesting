@@ -76,7 +76,31 @@
 
 // optional == possibility
 // check if a value exists or if it's nil
-var cannotBeNil:Int = 1
-var canBeNil:Int? = 24
-canBeNil = nil
+//var cannotBeNil:Int = 1
+//var canBeNil:Int? = 24
+//canBeNil = nil  
+//var opt:Int? = 1
+//opt == nil
+//opt!
+//var testOpt:Int? = 24
+//testOpt = nil
+//// testOpt!
+//var implicitlyUnwrappedOptional:Int! = 1
+//implicitlyUnwrappedOptional + 2
+//implicitlyUnwrappedOptional = nil
+//var errorToHappen:String = "Error..."
+//// errorToHappen = nil
+//// implicitlyUnwrappedOptional + 3
+//
+//// nil coalescing...
+//1 ?? 2
+//2 ?? 1
+//nil ?? 2
+//var whoKnows = 2 ?? nil
+//whoKnows!
+//var testDictionary = ["testOne":"One", "testTwo":"Two"]
+//testDictionary["testOne"]
+//testDictionary["testOne"] ?? "Whoops..."
+//testDictionary["testThree"] ?? "Whoops..."
 
+// conditional statements...
