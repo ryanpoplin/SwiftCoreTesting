@@ -1,4 +1,3 @@
-//// Playground - noun: a place where people can play
 //
 //import UIKit
 //
@@ -104,3 +103,75 @@
 //testDictionary["testThree"] ?? "Whoops..."
 
 // conditional statements...
+//var listArr = ["One", "Two", "Three"]
+//listArr[0]
+//var costs = ["One":1, "Two":2, "Three":3]
+//costs["One"]
+//var cost = 0
+//// optional value unwrapping pattern...
+//// compiler unwraps the value to allow conditional functionality...
+//let optCon:Int? = 1
+//optCon!
+//if let cm = costs["One"] {
+//    // cost == scope locked...
+//    cost += cm
+//}
+//if let cb = costs["Random"] {
+//    cost += cb
+//} else {
+//    println("Cannot find this value...")
+//}
+//// testing...
+//var valueOne:Int? = 1, valueTwo:Int? = 1
+//valueOne == valueTwo
+//valueOne != valueTwo
+//// valueOne === valueTwo
+//// valueOne !== valueTwo
+//var i = 17
+//i % 2 == 0 ? "Even" : "Odd"
+//var position = 21
+//switch position {
+//case 1: println("First")
+//case 2: println("Second")
+//case 3: println("Third")
+//case 4...20: println("\(position)th")
+//case position where (position % 10) == 1:
+//    println("\(position)st")
+//case let p where (p % 10) == 2:
+//    println("\(p)nd")
+//case let p where (p % 10) == 3:
+//    println("\(p)rd")
+//default: println("\(position)th")
+//}
+//4...24 ~= 4
+//1..<10 ~= 10
+
+// iteration...
+//for i in 1...3 {
+//    println("i is \(i)")
+//}
+//for _ in 1...3 {
+//    println("Looping...")
+//}
+//var shopping = ["Milk", "Eggs", "Coffee", "Tea"]
+//var costs = ["Milk":1, "Eggs":2, "Coffee":3, "Tea":4]
+//var cost = 0
+//for item in shopping {
+//    if let itemCost = costs[item] {
+//        cost += itemCost
+//    }
+//}
+//cost
+//var testKeys = Array(costs.keys)
+//var testValues = Array(costs.values)
+//for item in costs.keys {
+//    println(item)
+//}
+//var (a,b) = (1,2)
+//for (item, cost) in costs {
+//    println("The \(item) costs \(cost)")
+//}
+var sum = 0
+for var i = 0; i <= 10, ++i {
+    sum += i
+}
