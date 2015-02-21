@@ -171,7 +171,26 @@
 //for (item, cost) in costs {
 //    println("The \(item) costs \(cost)")
 //}
-var sum = 0
-for var i = 0; i <= 10, ++i {
-    sum += i
-}
+//var sum = 0
+//for var i = 0; i <= 10; ++i {
+//    sum += i
+//}
+//sum
+//// always ++i, and --j...
+//for var i = 0, j = 10; i <= 10 && j >= 0; ++i, --j {
+//    println("\(i), \(j)")
+//}
+//var deck = [1...13, 1...13, 1...13, 1...13]
+//suits: for suit in deck {
+//    for card in suit {
+//        if card == 3 {
+//            continue // next card in the same suit
+//        } else if card == 5 {
+//            continue suits // go to next suit
+//        } else if card == 7 {
+//            break // leave card loop
+//        } else if card == 13 {
+//            break suits // leave suit loop
+//        }
+//    }
+//}
