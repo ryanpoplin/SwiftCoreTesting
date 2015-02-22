@@ -194,3 +194,17 @@
 //        }
 //    }
 //}
+
+// functions...
+var shopping = ["Milk", "Eggs", "Coffee", "Tea"]
+var costs = ["Milk":1, "Eggs":2, "Coffee":3, "Tea":4]
+func costOf(items:[String], costs:[String:Int]) -> Int {
+    var cost = 0
+    for item in items {
+        if let cm = costs[item] {
+            cost += cm
+        }
+    }
+    return cost
+}
+costOf(shopping,costs)
